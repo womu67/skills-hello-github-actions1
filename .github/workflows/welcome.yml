@@ -4,6 +4,7 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+ welcome-workflow
 jobs:
   build:
     name: Post welcome comment
